@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/healthcaretechnologiescorpprogram" mode="merge"/>
+    <filter root="/content/healthcaretechnologiescorpprogram" mode="merge"/>
+    <filter root="/content/dam/healthcaretechnologiescorpprogram" mode="merge">
+        <exclude pattern="/content/dam/healthcaretechnologiescorpprogram(/.*)?"/>
+        <include pattern="/content/dam/healthcaretechnologiescorpprogram/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/healthcaretechnologiescorpprogram/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/healthcaretechnologiescorpprogram" mode="merge"/>
+</workspaceFilter>
